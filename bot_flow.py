@@ -16,8 +16,7 @@ from whatsapp import (
     send_loan_type_selection, send_employment_status,
     send_callback_time, send_back_prompt
 )
-from gemini_ai import ask_gemini
-from sheets import save_lead
+
 
 # ── In-memory session store ─────────────────────────────────────────────────
 # Format: { phone: {"state": "...", "lead": {...}, "name": "..."} }
